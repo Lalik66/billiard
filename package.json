@@ -1,0 +1,23 @@
+{
+  "name": "cue-club-3d",
+  "private": true,
+  "version": "1.0.0",
+  "description": "3D billiards game for the browser - Vite + Three.js, custom physics",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node tests/run-all.mjs"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.3"
+  }
+}
